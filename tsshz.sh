@@ -17,4 +17,12 @@ case $1 in
         echo "ssh --> production catalog"
         tsh ssh --cluster production quartzy@prodvpc_catalog1-34d85505-1d2f-53e6-890b-19d66296c699
         ;;
+    's-work')
+        echo "ssh --> staging worker (abe0)"
+        tsh ssh --cluster production quartzy@stagingvpc_abe0-6769e7d4-3a8e-54a7-ae0f-9139f9d6e7fc
+        ;;
+    'p-work')
+        echo "ssh --> production worker (worker0)"
+        tsh ssh --cluster production quartzy@prodvpc_worker0-e3f054d8-9ef6-5f11-9d6f-df8b63610fd0
+        ;;
 esac
