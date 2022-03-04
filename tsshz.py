@@ -11,10 +11,12 @@ services = {
     'staging-catalog': ('staging', 'stagingvpc_catalog0-c202f122-f9f0-5f9c-99e3-70e150ce0b2f'),
     'staging-rufio': ('staging', 'stagingvpc_rufio_php74'),
     'staging-web': ('staging', 'staging_proxy2-e8b790e9-b09e-512f-896d-ff74adbc8125'),
+
     'prod-abe0': ('production', 'prodvpc_abe0-26f04faf-b232-54e4-b695-e4e634069b4e'),
     'prod-abe1': ('production', 'prodvpc_abe1-cb685f96-0e91-559b-9466-1abc95491ce5'),
     'prod-api-worker': ('production', 'prodvpc_api-worker_php74'),
     'prod-catalog': ('production', 'prodvpc_catalog1-34d85505-1d2f-53e6-890b-19d66296c699'),
+    'prod-cron': ('production', 'prodvpc_cron0-381af6a9-2ca4-5ae0-95f1-fcb52b3e845b'),
     'prod-rufio0': ('production', 'prodvpc_rufio0_php74'),
     'prod-rufio1': ('production', 'prodvpc_rufio1_php74'),
     'prod-rufio2': ('production', 'prodvpc_rufio2_php74'),
